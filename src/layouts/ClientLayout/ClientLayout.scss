@@ -1,0 +1,24 @@
+.client-layout-bg {
+  background-color: #000000;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 1em 0;
+}
+
+.client-layout {
+  background-color: rgb(101, 212, 231);
+  padding: 10px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #030303;
+  }
+}
